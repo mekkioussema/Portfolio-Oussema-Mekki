@@ -9,9 +9,9 @@
 
 body {
     width: 100%;
-    min-height: 100vh; /* S'assurer que le corps s'adapte au contenu */
-    overflow-y: auto; /* Permettre le défilement vertical */
-    background-color: rgb(11, 0, 0); /* Couleur de fond */
+    min-height: 100vh; 
+    overflow-y: auto; 
+    background-color: rgb(11, 0, 0);
     scroll-behavior: smooth; /* Défilement fluide */
 
 
@@ -22,15 +22,15 @@ footer {
    
     background-color: #1b0000; /* Couleur de fond */
     color: #619197; /* Couleur du texte */
-    text-align: center; /* Centrer le texte au centre du footer */
+    text-align: center;
     padding: 10px 0; /* Espacement interne */
     position: fixed; /* Fixer le footer en bas de la page */
     bottom: 0;
     width: 100%; /* Assurez-vous que le footer occupe toute la largeur */
-    display: flex; /* Utilisation de flexbox pour un meilleur contrôle de la mise en page */
+    display: flex; 
     justify-content: space-between; /* Distribuer l'espace entre les éléments */
-    align-items: center; /* Centrer verticalement les éléments */
-    padding: 10px 20px; /* Espacement interne supplémentaire */
+    align-items: center; 
+    padding: 10px 20px; 
 }
 
 footer p {
