@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Oussema Portfolio-Contact</title>
+</head>
+<body>
+    
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <div class="nav-container">
+                <div class="logo" data-aos="zoom-in" data-aos-duration="1500">
+                   
+                    📨 <span>Contact</span>
+                </div>
+                <div class="links">
+                    <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100"><a href="../index.html">Home</a></div>
+                    <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300"><a href="../pages/career.html">My Career</a></div>
+                    <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400"><a href="../pages/skills.html">Skills</a></div>
+                    <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500"><a href="../pages/experience.html">Experience</a></div>
+                    <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="600"><a href="../pages/events.html">Events</a></div>
+                    <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="700"><a href="../pages/courses.html">Courses</a></div>
+                    <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="700"><a href="../pages/hobbies.html">Hobbies</a></div>
+                </div>
+                <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+            </div>
+            <div class="dropdown">
+                <div class="links">
+                    <a href="../index.html">Home</a>
+                    <a href="../pages/career.html">My Career</a>
+                    <a href="../pages/skills.html">Skills</a>
+                    <a href="../pages/experience.html">Experience</a>
+                    <a href="../pages/events.html">Events</a>
+                    <a href="../pages/courses.html">Courses</a>
+                    <a href="../pages/hobbies.html">Hobbies</a>
+                    <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+ <!-- main Section -->
+
+ <div class="contact-container" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="900">
+    <div class="form-section">
+        <h1>&emsp;&emsp;Contact </h1>
+        <p>there is a plate where we can find my contact.</p>
+            <form>
+            <input type="text" placeholder="Firstname" required>
+            <input type="text" placeholder="Lastname" required>
+            <input type="email" placeholder="Object" required>
+            <input type="tel" placeholder="Phone number" required>
+            <select required>
+                <option value="" disabled selected>Select a service</option>
+                <option value="service1">Web</option>
+                <option value="service2">Mobile</option>
+                <option value="service2">Iot</option>
+                <option value="service2">Programation</option>
+            </select>
+            <textarea placeholder="Type your message here." required></textarea>
+            <button type="submit">Send message</button>
+        </form>
+     </div>
+     <div class="info-section">
+        <div class="info">
+            <p>
+                <i class="fa-solid fa-phone" style="color: #7b071e;"></i> <strong>Phone</strong><br>(+216) 92 538 447
+            </p>
+        </div>
+        <div class="info">
+            <p>
+                <i class="fa-solid fa-envelope" style="color: #7b071e;"></i> <strong>Email</strong><br><a href="mailto:oussema.mekki@gmail.com" style="color: #7b071e;">oussema.mekki@gmail.com</a>
+            </p>
+        </div>
+        <div class="info">
+            <p>
+                <i class="fa-solid fa-map-marker-alt" style="color: #7b071e;"></i> <strong>Address</strong><br>Sfax, Tunisie
+            </p>
+        </div>
+        <div class="social-links">
+            <a href="https://github.com/mekkioussema" ><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.facebook.com/oussema.mekki.391" ><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.linkedin.com/in/oussema-elmekki-35086311a/" ><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://x.com/i/flow/login?redirect_after_login=%2Fmekkioussama4"><i class="fa-brands fa-twitter"></i></a>
+        </div>
+    </div>
+    
+
+ 
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({ offset: 0 });
+    </script>
+    <script src="../js/script.js"></script>
+</body>
+</html>

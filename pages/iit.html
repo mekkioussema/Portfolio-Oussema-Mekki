@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Oussema Portfolio-IIT</title>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <div class="nav-container">
+                <div class="logo" data-aos="zoom-in" data-aos-duration="1500">🏫 <span>IIT</span></div>
+                <div class="links">
+                    <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100"><a href="../index.html">Home</a></div>
+                    <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300"><a href="../pages/career.html">My Career</a></div>
+                    <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400"><a href="../pages/skills.html">Skills</a></div>
+                    <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500"><a href="../pages/experience.html">Experience</a></div>
+                    <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="600"><a href="../pages/events.html">Events</a></div>
+                    <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="700"><a href="../pages/courses.html">Courses</a></div>
+                    <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="700"><a href="../pages/hobbies.html">Hobbies</a></div>
+                </div>
+                <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+            </div>
+            <div class="dropdown">
+                <div class="links">
+                    <a href="../index.html">Home</a>
+                    <a href="../pages/career.html">My Career</a>
+                    <a href="../pages/skills.html">Skills</a>
+                    <a href="../pages/experience.html">Experience</a>
+                    <a href="../pages/events.html">Events</a>
+                    <a href="../pages/courses.html">Courses</a>
+                    <a href="../pages/hobbies.html">Hobbies</a>
+                    <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+    <!-- Main Section -->
+    <main>
+        <div class="video-container" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1600">
+            <video autoplay muted loop>
+                <source src="../images/s4.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <div class="video-overlay">
+                <h1 class="glow-text">Welcome to IIT</h1>
+                <p class="glow-text">Discover the innovative and inspiring atmosphere of our campus.</p>
+
+            </div>
+        </div>
+        <section class="testimonial">
+            <h2>About IIT</h2>
+    <p>The International Institute of Technology (IIT) in Sfax, Tunisia, is renowned for its innovative programs and cutting-edge research. IIT offers a multidisciplinary curriculum designed to prepare students for the future.</p>
+    <div class="about-list-container">
+        <!-- Image à côté des listes -->
+        <div class="about-image" data-aos="fade-right">
+            <img src="../images/iiiit.png" alt="IIT Image" />
+        </div>
+        <div class="about-list" data-aos="fade-left">
+            <h3>I. License</h3>
+            <ol>
+                    <li>Foundations in Computer Science</li>
+                    <li>Introduction to Engineering Principles</li>
+                    <li>Specialization in Emerging Technologies</li>
+                </ol>
+                <h3>II. Génie Informatique</h3>
+                <ol>
+                    <li>Advanced Programming</li>
+                    <li>Artificial Intelligence</li>
+                    <li>Robotics and IoT Integration</li>
+                </ol>
+                <h3>III. Master</h3>
+                <ol>
+                    <li>Data Science and Big Data Analytics</li>
+                    <li>Cybersecurity and Ethical Hacking</li>
+                </ol>
+            </div>
+            <div class="sector-grid">
+                <div class="sector" data-aos="flip-left">
+                    <img src="../images/1.jpg" alt="Civil Engineering">
+                    <h3>Civil Engineering</h3>
+                    <p>Specializing in infrastructure design, construction, and urban development.</p>
+                </div>
+                <div class="sector" data-aos="flip-left" data-aos-delay="200">
+                    <img src="../images/2.jpg" alt="Mechanical Engineering">
+                    <h3>Mechanical Engineering</h3>
+                    <p>Focused on designing and manufacturing machines and mechanical systems.</p>
+                </div>
+                <div class="sector" data-aos="flip-left" data-aos-delay="400">
+                    <img src="../images/3.jpg" alt="Computer Engineering">
+                    <h3>Computer Engineering</h3>
+                    <p>Integrating hardware and software to develop advanced computing systems.</p>
+                </div>
+                <div class="sector" data-aos="flip-left" data-aos-delay="600">
+                    <img src="../images/4.jpg" alt="Industrial Engineering">
+                    <h3>Industrial Engineering</h3>
+                    <p>Optimizing complex systems and processes for greater efficiency.</p>
+                </div>
+                <div class="sector" data-aos="flip-left" data-aos-delay="800">
+                    <img src="../images/5.jpg" alt="Process Engineering">
+                    <h3>Process Engineering</h3>
+                    <p>Improving chemical, physical, and biological processes in industries.</p>
+                </div>
+            </div>
+        </section>
+        
+        
+    </main>
+    
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-left">
+            <a href="../pages/contact.html">📨 contact</a>
+        </div>
+        <p>
+            Route M'harza Km.1.5, Sfax <br>
+            Tél : +216 74 465 020 <br>
+            MAIL : contact.iit@iit.tn
+        </p>
+        <div class="footer-right">
+            <a href="../pages/quiz.html">🎮 Quiz</a>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({ offset: 0 });
+    </script>
+    <script src="../js/script.js"></script>
+</body>
+</html>

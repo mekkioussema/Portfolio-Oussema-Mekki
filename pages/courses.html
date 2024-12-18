@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Oussema Portfolio-Courses</title>
+</head>
+<body>
+    
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <div class="nav-container">
+                <div class="logo" data-aos="zoom-in" data-aos-duration="1500">
+                    <a href="../index.html" style="text-decoration: none; color: inherit;">
+                        <span style="font-size: 3rem; margin-right: 8px;">←</span>
+                    </a>
+                    . <span>Courses</span>
+                </div>
+                <div class="links">
+                    <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100"><a href="../index.html">Home</a></div>
+                    <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300"><a href="../pages/career.html">My Career</a></div>
+                    <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400"><a href="../pages/skills.html">Skills</a></div>
+                    <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500"><a href="../pages/experience.html">Experience</a></div>
+                    <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="600"><a href="../pages/events.html">Events</a></div>
+
+                    <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">
+                        <span style="color: #f86882; cursor: default; text-shadow: 2px 5px 5px #7b071e; font-weight: bold;font-size: 20px;">Courses</span>
+                    </div>
+                    <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="700"><a href="../pages/hobbies.html">Hobbies</a></div>
+                </div>
+                <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+            </div>
+            <div class="dropdown">
+                <div class="links">
+                    <a href="../index.html">Home</a>
+                    <a href="../pages/career.html">My Career</a>
+                    <a href="../pages/skills.html">Skills</a>
+                    <a href="../pages/experience.html">Experience</a>
+                    <a href="../pages/events.html">Events</a>
+                    <a href="../pages/courses.html">Courses</a>
+                    <a href="../pages/hobbies.html">Hobbies</a>
+                    <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+    <!-- Main Section -->
+    <main data-aos="fade-up">
+        <div class="courses-section">
+            <br><br><br>
+            <table class="courses-table">
+                <tbody>
+                    <tr>
+                        <td><a href="C:\Users\MSI\Desktop\proc" target="_blank">Algorithmique et programmation procédurale C</a></td>
+                        <td><img src="../images/c.jpg" alt="Mathematics" class="course-image"></td>
+                        <td>The course on "Algorithmic and Procedural Programming in C" focuses on teaching fundamental programming concepts using the C language. Students learn to design algorithms, solve problems using structured programming techniques, and gain hands-on experience through practical exercises (TP).</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Architectures des Ordinateurs</td>
+                        <td><img src="../images/robot.jpg" alt="Computer Science" class="course-image"></td>
+                        <td>In this course, we created a smart robot using C# programming and procedural techniques with Arduino. The project focused on developing algorithms for autonomous navigation, sensor integration, and decision-making, enabling the robot to perform various tasks independently.</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Préparation à la certification DELF</td>
+                        <td><img src="../images/fr.png" alt="Physics" class="course-image"></td>
+                        <td>We created a theater scene to practice conversational French and enhance our language skills. The project involved writing dialogues, acting, and presenting in front of an audience, allowing us to develop our fluency and confidence in French.</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Programmation Python</td>
+                        <td><img src="../images/python.jpg" alt="AI" class="course-image"></td>
+                        <td>The course on "Algorithmic and Procedural Programming in Python" focuses on teaching fundamental programming concepts using Python. Students learn to design algorithms, solve problems using structured programming techniques, and gain hands-on experience through practical exercises (TP).</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Web Development</td>
+                        <td><img src="../images/web.png" alt="Web Development" class="course-image"></td>
+                        <td>In the Web Development course, we created a personal website using HTML, CSS, and JavaScript. The project focused on developing a responsive layout, implementing interactive elements with JavaScript, and ensuring a seamless user experience. We also explored modern web design principles, including usability, accessibility, and mobile-first design.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-left">
+            <a href="../pages/iit.html">
+                <img src="../images/iit.png" alt="IIT Icon" class="footer-icon">
+                IIT
+            </a>
+        </div>
+        <p>© Oussema Mekki. All rights reserved.</p>
+        <div class="footer-right">
+            <a href="../pages/quiz.html">🎮 Quiz</a>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1200,
+            offset: 100,
+        });
+    </script>
+    <script src="../js/script.js"></script>
+</body>
+</html>

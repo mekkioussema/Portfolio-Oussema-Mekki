@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Oussema Portfolio-Quiz</title>
+</head>
+<body>
+    
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <div class="nav-container">
+                <div class="logo" data-aos="zoom-in" data-aos-duration="1500">
+                   
+                    🎮 <span>Quiz</span>
+                </div>
+                <div class="links">
+                    <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100"><a href="../index.html">Home</a></div>
+                    <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300"><a href="../pages/career.html">My Career</a></div>
+                    <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400"><a href="../pages/skills.html">Skills</a></div>
+                    <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500"><a href="../pages/experience.html">Experience</a></div>
+                    <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="600"><a href="../pages/events.html">Events</a></div>
+                    <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="700"><a href="../pages/courses.html">Courses</a></div>
+                    <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="700"><a href="../pages/hobbies.html">Hobbies</a></div>
+                </div>
+                <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+            </div>
+            <div class="dropdown">
+                <div class="links">
+                    <a href="../index.html">Home</a>
+                    <a href="../pages/career.html">My Career</a>
+                    <a href="../pages/skills.html">Skills</a>
+                    <a href="../pages/experience.html">Experience</a>
+                    <a href="../pages/events.html">Events</a>
+                    <a href="../pages/courses.html">Courses</a>
+                    <a href="../pages/hobbies.html">Hobbies</a>
+                    <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- main -->
+ 
+ <br><br>
+ <div class="image-container">
+    <img src="../images/quiz.jpg" alt="Left Image" class="side-image left-image" >
+    <div class="quiz-container">
+        <h1>-Car Quiz-</h1>
+        <div id="question"></div>
+        <div id="answers"></div>
+        <button id="validateBtn">Next</button>
+        <button id="nextBtn" style="display:none;">Next</button>
+        <div id="questionCounter"></div>
+        <div id="results" style="display: none;"></div>
+    </div>
+    <img src="../images/quiz.jpg" alt="Right Image" class="side-image right-image">
+</div>
+
+    <script src="../js/script2.js"></script>
+<br><br><br><br>
+    <img src="../images/iit.png" alt="">
+
+    <!-- footer -->
+    <footer>
+        <div class="footer-left">
+            <a href="../pages/iit.html">
+                <img src="../images/iit.png" alt="IIT Icon" class="footer-icon">
+                IIT
+            </a>
+        </div>
+        <p>© Oussema Mekki. All rights reserved.</p>
+        <div class="footer-right">
+            <a href="../pages/contact.html">📨 contact</a>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({ offset: 0 });
+    </script>
+    <script src="../js/script.js"></script>
+</body>
+</html>
+

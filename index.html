@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>Oussema Portfolio-Home</title>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <div class="nav-container">
+                <div class="logo" data-aos="zoom-in" data-aos-duration="1500">
+                    Oussema <span>Mekki</span>
+                </div>
+                <div class="links">
+                    <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">
+                        <span style="color: #f86882; cursor: default; text-shadow: 2px 5px 5px #7b071e; font-weight: bold;font-size: 20px; ">Home</span>
+                    </div>
+                    <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200"><a href="pages/career.html">My Career</a></div>
+                    <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300"><a href="pages/skills.html">Skills</a></div>
+                    <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400"><a href="pages/experience.html">Experience</a></div>
+                    <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500"><a href="pages/events.html">Events</a></div>
+                    <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="600"><a href="pages/courses.html">Courses</a></div>
+                    <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="700"><a href="pages/hobbies.html">Hobbies</a></div>
+                </div>
+                <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+            </div>
+            <div class="dropdown">
+                <div class="links">
+                    <a href="index.html">Home</a>
+                    <a href="pages/career.html">My Career</a>
+                    <a href="pages/skills.html">Skills</a>
+                    <a href="pages/experience.html">Experience</a>
+                    <a href="pages/events.html">Events</a>
+                    <a href="pages/courses.html">Courses</a>
+                    <a href="pages/hobbies.html">Hobbies</a>
+                    <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content Section -->
+    <section>
+        <div class="main-container">
+            <div class="image" data-aos="zoom-out" data-aos-duration="2000">
+                <img src="images/me.jpg" >
+            </div>
+            <div class="content">
+                <h1 data-aos="fade-left" data-aos-duration="1500" data-aos-delay="700">Hey I'm <span>Oussema</span></h1>
+                <div class="typewriter" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="900">I'm a <span class="typewriter-text"></span><label for="">|</label></div>
+                <p data-aos="flip-down" data-aos-duration="1500" data-aos-delay="1100"><br>&nbsp;&nbsp;&nbsp;Hi! I’m Oussema Mekki, a 24-year-old Computer Engineering student at the International Institute of Technology  <a href="pages/iit.html" style="text-decoration: none; color:blue;">🎓(IIT)</a> in Tunisia.
+                     <br>&nbsp;&nbsp;&nbsp; Technology has always been more than just a field of study for me it’s a passion that drives my curiosity and creativity..</p>
+                <div class="social-links">
+                    <a href="https://github.com/mekkioussema" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1300"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.facebook.com/oussema.mekki.391" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1400"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.linkedin.com/in/oussema-elmekki-35086311a/" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1500"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://x.com/i/flow/login?redirect_after_login=%2Fmekkioussama4" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1600"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+                <div class="btn" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="1800">
+                 <br><br>   <a href="pages/contact.html"> <button>Contact</button></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br>
+    <hr class="colored-line" id="line">
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-left">
+            <a href="pages/iit.html">
+                <img src="images/iit.png" alt="IIT Icon" class="footer-icon">
+                IIT
+            </a>
+        </div>
+    
+        <p>©Oussema Mekki. All rights reserved.</p>
+    
+        <div class="footer-right">
+            <a href="pages/quiz.html">🎮 Quiz </a>
+        </div>
+    </footer>
+    
+    
+    
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({offset:0});
+    </script>
+    <script src="js/script.js"></script>
+</body>
+</html>
